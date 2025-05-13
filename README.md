@@ -36,7 +36,3 @@ npx react-native-asset
 
 # 4 – Android
 npx react-native run-android
-
-#    iOS (macOS only)
-npx pod-install
-npx react-native run-ios
