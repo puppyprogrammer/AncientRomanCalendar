@@ -1,0 +1,65 @@
+########################################################
+#  React-Native / Node                                 #
+########################################################
+
+# Node dependencies & caches
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.cache/
+.parcel-cache/
+.rpt2_cache*/
+.rts2_cache_*/
+.webpack/
+dist/
+build/Release/
+
+# TypeScript / Babel / Metro caches
+*.tsbuildinfo
+.nyc_output/
+coverage/
+__generated__/
+*.tmp
+
+# Environment files
+.env*
+!.env.example
+
+########################################################
+#  Android                                             #
+########################################################
+
+# Gradle & build output
+android/.gradle/
+android/build/
+android/app/build/
+*.apk
+*.aab
+
+# Local keystores or signing configs (if any)
+**/debug.keystore
+**/release.keystore
+
+########################################################
+#  iOS                                                 #
+########################################################
+
+ios/build/
+ios/Pods/
+*.xcodeproj/*
+!ios/*.xcodeproj/**        # keep project config, ignore inner build data
+*.xcworkspace/*
+!ios/*.xcworkspace/**
+
+########################################################
+#  Misc IDE / OS noise                                 #
+########################################################
+
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
