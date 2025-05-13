@@ -25,8 +25,8 @@ A lightweight React-Native showcase that answers the question:
 
 ```bash
 # 1 – clone
-git clone https://github.com/<your-user>/roman-chronometer.git
-cd roman-chronometer
+git clone https://github.com/puppyprogrammer/AncientRomanCalendar.git
+cd AncientRomanCalendar
 
 # 2 – install JS deps
 npm install          # or yarn
